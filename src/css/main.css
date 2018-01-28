@@ -1,1 +1,13 @@
  /*Configuracion inicial de la página*/
+ body {
+  background: #272726;
+}
+
+nav.navbar {
+  background: #ec4455;
+}
+
+.size-img {
+  width: 210px;
+  height: 260px;
+}
