@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "* **Track:** _Common Core_\r * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_\r * **Unidad:** _Reto N° 2_\r * **Unidad:** _Lucero,Margarita,Dayam_",
   "main": "index.js",
+<<<<<<< HEAD
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -11,6 +12,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+=======
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "scripts": {
+    "build": "babel --presets env src -d dist"
+  }, 
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "devDependencies": {},
+>>>>>>> bd826fd254598e209f4872afff77e3c5adfc3bad
   "repository": {
     "type": "git",
     "url": "git+https://github.com/margb13/cardify.git"

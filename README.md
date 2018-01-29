@@ -13,7 +13,20 @@ imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo
 elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>`
 con el texto del atributo `alt` de la imagen.
 
+<<<<<<< HEAD
 
+=======
+## Flujo de Trabajo en Equipo:
+
+Para efectos de organización en el trabajo colaborativo se han creado tres ramas en este repositorio. Cada desarrolladora usará la rama asignada para ella de la siguiente manera:
+
+- _Dayam Llerena_: [d-plugin](https://github.com/margb13/cardify/tree/d-plugin)
+
+- _Lucero Hospina_: [l-plugin](https://github.com/margb13/cardify/tree/l-plugin)
+
+- _Margarita Sutta_: [m-plugin](https://github.com/margb13/cardify/tree/m-plugin)
+
+>>>>>>> bd826fd254598e209f4872afff77e3c5adfc3bad
 ## Progreso Propuesto:
 
 Se nos proponen los siguientes checklists de progreso para cada semana:
