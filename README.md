@@ -32,7 +32,7 @@ Para efectos de organización en el trabajo colaborativo se han creado tres rama
 
 Se nos proponen los siguientes checklists de progreso para cada semana:
 
-_SEMANA 1._
+_**SEMANA 1.**_
 
 - [X] Formar equipo.
 - [X] Elegir reto.
@@ -42,13 +42,13 @@ _SEMANA 1._
 - [x] Inicializar proyecto con npm init y git init.
 - [x] Crear index.html con ejemplo principal de uso.
 
-_SEMANA 2._
+_**SEMANA 2.**_
 
-- [ ] \(Optional) Agregar tests que describan la API de tu librería y los casos de uso esperados.
-- [ ] \(Optional) Implementar funcionalidad esencial.
-- [ ] \(Optional) Hacer code review con tus compañeras e instructorxs.
+- [ ] Agregar tests que describan la API de tu librería y los casos de uso esperados.
+- [ ] Implementar funcionalidad esencial.
+- [ ] Hacer code review con tus compañeras e instructorxs.
 
-_SEMANA 3._
+**_SEMANA 3._**
 
 - [ ] Completar implementación de librería y ejemplo principal (usando la librería).
 - [ ] Hacer code review con tus compañeras e instructorxs.
@@ -61,19 +61,19 @@ _SEMANA 3._
 
 Todos los retos deben incluir por los menos los siguientes archivos:
 
-``` 
- - README.md con descripción del módulo, instrucciones de instalación, uso y documentación del API.
- - index.js: Librería debe exportar una función u objeto al entorno global (window) y hacer uso de features de ES6 donde sea apropiado.
- - index.html: Página web de la librería con ejemplo funcionando.
- - package.json con nombre, versión, descripción, autores, licencia, dependencias, scripts (pretest, test, ...)
- - .eslintrc con configuración para linter (ver guía de estilo de JavaScript)
- - .gitignore para ignorar node_modules u otras carpetas que no deban incluirse en control de versiones (git).
+```
+1. README.md con descripción del módulo, instrucciones de instalación, uso y documentación del API.
+2. index.js: Librería debe exportar una función u objeto al entorno global (window) y hacer uso de features de ES6 donde sea apropiado.
+3. index.html: Página web de la librería con ejemplo funcionando.
+4. package.json con nombre, versión, descripción, autores, licencia, dependencias, scripts (pretest, test, ...)
+5. .eslintrc con configuración para linter (ver guía de estilo de JavaScript)
+6. .gitignore para ignorar node_modules u otras carpetas que no deban incluirse en control de versiones (git).
+```
 
 Hacker edition (opcional):
-
- - Si la librería está dirigida al navegador, debe adherirse al patrón UMD para poder ser usado con AMD, CommonJS y como variable global del navegador.
-   Integración continua con Travis o Circle CI
-
+```
+  * Si la librería está dirigida al navegador, debe adherirse al patrón UMD para poder ser usado con AMD, CommonJS y como variable global del navegador.
+  * Integración continua con Travis o Circle CI
 ```
 
 ***
@@ -84,7 +84,7 @@ Como sabemos, jQuery es de las más potentes y utilizadas librerías de Javascri
 
 Por lo que consideramos los siguientes puntos para la creación de nuestro plugin:
 
-### I -Momenclatura del Plugin
+### I -Momenclatura del plugin
 
 Hay un patrón generalizado de la nomenclatura de los plugins:
 
@@ -94,7 +94,7 @@ Hay un patrón generalizado de la nomenclatura de los plugins:
 
 Lógicamente, siempre debes de incluír la librería jQuery antes del código de extensión.
 
-### II -Inicializar el Plugin
+### II -Inicializar el plugin
 
 La manera de inicializar el plugin de jQuery es básicamente obtener un parámetro “$” (signo de dólar), el cual representará nuestro objeto de jQuery; una vez obtenido el parámetro, extendemos su funcionalidad añadiendo “.fn.extend”
 
