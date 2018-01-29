@@ -72,3 +72,15 @@ Hacker edition (opcional):
 ```
 
 ***
+
+## Descripción del desarrollo del plugin:
+
+Como sabemos, jQuery es de las más potentes y utilizadas librerías de Javascript, hoy en día reconocida como el propio framework de Javascript que sin duda se caracteriza por las funciones y eventos que implementa en este lenguaje, jQuery nos proporciona gran facilidad al escribir código.
+
+Por lo que consideramos los siguientes puntos para la creación de nuestro plugin:
+
+**I- Inicializar el Plugin**
+
+La manera de inicializar el plugin de jQuery es básicamente obtener un parámetro “$” (signo de dólar), el cual representará nuestro objeto de jQuery; una vez obtenido el parámetro, extendemos su funcionalidad añadiendo “.fn.extend”
+
+![inicializar](temporary-files/assets/images/screen)
