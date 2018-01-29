@@ -28,24 +28,24 @@ Para efectos de organización en el trabajo colaborativo se han creado tres rama
 Se nos proponen los siguientes checklists de progreso para cada semana:
 
 SEMANA 1
-- [] Formar equipo.
-- [] Elegir reto.
-- [] Hacer fork de reto modelo o crear nuevo repo si has propuesto un reto no propuesto por Laboratoria.
-- [] Escribir primera versión del README.md con una descripción general de la librería así como ejemplos (snippets) de uso y configuración (si fuera necesario).
-- [] Crear issues y milestones que sirvan como hoja de ruta (roadmap)
-- [] Inicializar proyecto con npm init y git init.
-- [] Crear index.html con ejemplo principal de uso.
+- [ ] Formar equipo.
+- [ ] Elegir reto.
+- [ ] Hacer fork de reto modelo o crear nuevo repo si has propuesto un reto no propuesto por Laboratoria.
+- [ ] Escribir primera versión del README.md con una descripción general de la librería así como ejemplos (snippets) de uso y configuración (si fuera necesario).
+- [ ] Crear issues y milestones que sirvan como hoja de ruta (roadmap)
+- [ ] Inicializar proyecto con npm init y git init.
+- [ ] Crear index.html con ejemplo principal de uso.
 
 SEMANA 2
-- [] Agregar tests que describan la API de tu librería y los casos de uso esperados.
-- [] Implementar funcionalidad esencial.
-- [] Hacer code review con tus compañeras e instructorxs.
+- [ ] Agregar tests que describan la API de tu librería y los casos de uso esperados.
+- [ ] Implementar funcionalidad esencial.
+- [ ] Hacer code review con tus compañeras e instructorxs.
 
 SEMANA 3
-- Completar implementación de librería y ejemplo principal (usando la librería).
-- Hacer code review con tus compañeras e instructorxs.
-- Preparar tu demo/presentación.
-- Publicar el ejemplo principal (index.html) en GitHub pages.
+- [ ] Completar implementación de librería y ejemplo principal (usando la librería).
+- [ ] Hacer code review con tus compañeras e instructorxs.
+- [ ] Preparar tu demo/presentación.
+- [ ] Publicar el ejemplo principal (index.html) en GitHub pages.
 
 > Nota: No olvides que es una buena práctica describir tu proyecto en este
 > archivo `README.md` :smiley:.
@@ -83,4 +83,4 @@ Por lo que consideramos los siguientes puntos para la creación de nuestro plugi
 
 La manera de inicializar el plugin de jQuery es básicamente obtener un parámetro “$” (signo de dólar), el cual representará nuestro objeto de jQuery; una vez obtenido el parámetro, extendemos su funcionalidad añadiendo “.fn.extend”
 
-![inicializar](temporary-files/assets/images/screen)
+![inicializar](../temporary-files/assets/images/screen)
