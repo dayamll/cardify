@@ -61,20 +61,20 @@ _**SEMANA 2.**_
 
 Todos los retos deben incluir por los menos los siguientes archivos:
 
-```
-1. README.md con descripción del módulo, instrucciones de instalación, uso y documentación del API.
-2. index.js: Librería debe exportar una función u objeto al entorno global (window) y hacer uso de features de ES6 donde sea apropiado.
-3. index.html: Página web de la librería con ejemplo funcionando.
-4. package.json con nombre, versión, descripción, autores, licencia, dependencias, scripts (pretest, test, ...)
-5. .eslintrc con configuración para linter (ver guía de estilo de JavaScript)
-6. .gitignore para ignorar node_modules u otras carpetas que no deban incluirse en control de versiones (git).
-```
+1. `README.md` con descripción del módulo, instrucciones de instalación, uso y documentación.
+2. `index.js:` Librería debe exportar una función u objeto al entorno global (window) y hacer uso de _features de ES6_ donde sea apropiado.
+3. `index.html:` Página web de la librería con ejemplo funcionando.
+4. `package.json` con nombre, versión, descripción, autores, licencia, dependencias, scripts (pretest, test, ...)
+5. `.eslintrc` con configuración para linter _(ver guía de estilo de JavaScript)_
+6. `.gitignore` para ignorar `_node_modules_` u otras carpetas que no deban incluirse en _control de versiones (git)_.
+
 
 Hacker edition (opcional):
-```
-  * Si la librería está dirigida al navegador, debe adherirse al patrón UMD para poder ser usado con AMD, CommonJS y como variable global del navegador.
-  * Integración continua con Travis o Circle CI
-```
+
+* Si la librería está dirigida al navegador, debe adherirse al patrón UMD para poder ser usado con AMD, CommonJS y como variable global del navegador.
+
+* Integración continua con Travis o Circle CI
+
 
 ***
 
