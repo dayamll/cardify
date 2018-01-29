@@ -99,3 +99,4 @@ La manera de inicializar el plugin de jQuery es básicamente obtener un parámet
 > Este método (extend) nos permite incrementar funcionalidad a jQuery, pues todo el código de nuestro plugin debe de ir definido dentro de él.
 
   ![inicializar](temporary-files/assets/images/screen/inicializar.png)
+
