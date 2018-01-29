@@ -100,3 +100,6 @@ La manera de inicializar el plugin de jQuery es básicamente obtener un parámet
 
   ![inicializar](temporary-files/assets/images/screen/inicializar.png)
 
+### III -Construyendo el plugin
+
+Vamos a crear un método que debe buscar todas las imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>` con el texto del atributo `alt` todos los elementos encapsulados dentro del objeto jQuery. Para ello vamos a usar el método genérico de jQuery llamado each(). Este método ejecuta una función en el contexto de cada elemento encontrado:
