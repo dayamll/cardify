@@ -80,7 +80,6 @@ Como sabemos, jQuery es de las más potentes y utilizadas librerías de Javascri
 Por lo que consideramos los siguientes puntos para la creación de nuestro plugin:
 
 **I- Inicializar el Plugin**
-
 La manera de inicializar el plugin de jQuery es básicamente obtener un parámetro “$” (signo de dólar), el cual representará nuestro objeto de jQuery; una vez obtenido el parámetro, extendemos su funcionalidad añadiendo “.fn.extend”
 
-![inicializar](url:temporary-files/assets/images/screen)
+  ![inicializar](temporary-files/assets/images/screen/inicializar.png)
