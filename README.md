@@ -83,4 +83,4 @@ Por lo que consideramos los siguientes puntos para la creación de nuestro plugi
 
 La manera de inicializar el plugin de jQuery es básicamente obtener un parámetro “$” (signo de dólar), el cual representará nuestro objeto de jQuery; una vez obtenido el parámetro, extendemos su funcionalidad añadiendo “.fn.extend”
 
-![inicializar](/temporary-files/assets/images/screen)
+![inicializar](url:temporary-files/assets/images/screen)
