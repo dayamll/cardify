@@ -38,7 +38,7 @@ _**SEMANA 1.**_
 * [X] Elegir reto.
 * [x] Hacer fork de reto modelo o crear nuevo repo si has propuesto un reto no propuesto por Laboratoria.
 * [x] Escribir primera versión del README.md con una descripción general de la librería así como ejemplos (snippets) de uso y configuración (si fuera necesario).
-* [ ] Crear issues y milestones que sirvan como hoja de ruta (roadmap)
+* [x] Crear issues y milestones que sirvan como hoja de ruta (roadmap)
 * [x] Inicializar proyecto con npm init y git init.
 * [x] Crear index.html con ejemplo principal de uso.
 
@@ -92,14 +92,18 @@ Hay un patrón generalizado de la nomenclatura de los plugins:
 
 Lógicamente, siempre debes de incluír la librería jQuery antes del código de extensión.
 
+> Referencias:
+> [Momenclatura del script del plugin](http://javascriptes.com/cul-es-la-convencin-de-nomenclatura-de-nombre-de-file-de-javascript.html)
+> [Momenclatura del script del plugin](http://html5facil.com/tutoriales/como-crear-plugins-para-jquery/)
+
 ### II -Inicializar el plugin
 
 La manera de inicializar el plugin de jQuery es básicamente obtener un parámetro “$” (signo de dólar), el cual representará nuestro objeto de jQuery; una vez obtenido el parámetro, extendemos su funcionalidad añadiendo “.fn.extend”
 
 > Este método (extend) nos permite incrementar funcionalidad a jQuery, pues todo el código de nuestro plugin debe de ir definido dentro de él.
 
-  ![inicializar](temporary-files/assets/images/screen/inicializar.png)
+  ![inicializar](assets/images/screen/inicializar.png)
 
 ### III -Construyendo el plugin
 
-Vamos a crear un método que debe buscar todas las imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>` con el texto del atributo `alt` todos los elementos encapsulados dentro del objeto jQuery. Para ello vamos a usar el método genérico de jQuery llamado each(). Este método ejecuta una función en el contexto de cada elemento encontrado:
+Vamos a crear un método que debe buscar todas las imágenes que encuentre dentro del _contenedor_ y reemplazarlas por un nuevo elemento `<figure>` que contenga la imagen (`<img>`) además de un `<figcaption>` con el texto del atributo `alt` encapsulados dentro del objeto jQuery. Para ello vamos a usar el método genérico de jQuery llamado each(). Este método ejecuta una función en el contexto de cada elemento encontrado:
