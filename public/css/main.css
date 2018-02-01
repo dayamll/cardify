@@ -7,7 +7,35 @@ nav.navbar {
   background: #ec4455;
 }
 
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.rounded {
+  border-radius: .25rem!important;
+}
+
 .size-img {
   width: 210px;
   height: 260px;
+}
+
+
+/* Clases para la pagina ejemplo al cargar el plugin*/
+figure {
+  margin: 0 0 1rem;
+}
+
+.figure {
+  display: inline-block;
+}
+
+figure, figcaption {
+  display: block;
+}
+
+.figure-caption {
+  font-size: 90%;
+  color: #6c757d;
 }
