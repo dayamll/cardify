@@ -1,0 +1,23 @@
+{
+  "name": "cardify",
+  "version": "1.0.0",
+  "description": "* **Track:** _Common Core_\r * **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_\r * **Unidad:** _Reto N° 2_\r * **Desarrolladoras:** _Dayam Llerema, Lucero Hospina y Margarita Sutta._",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel --watch src -d public/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/margb13/cardify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/margb13/cardify/issues"
+  },
+  "homepage": "https://github.com/margb13/cardify#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
