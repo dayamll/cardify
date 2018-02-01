@@ -221,6 +221,6 @@ La estructura HTML del **contenedor** implementando el plugin quedará de la sig
 ```
 ***
 
-* _DEMO_: [demo](https://)
+* _DEMO_: [demo](https://margb13.github.io/cardify/public/)
 
 ![inicializar](public/assets/images/view-index.png)
