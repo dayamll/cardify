@@ -11,8 +11,6 @@ body {
 
 /* titulo */
 .center {
-  /* text-align: center;
-  margin: 15px; */
   font-size: 60px;
   font-family: 'Berkshire Swash', cursive;
   font-family: 'Raleway', sans-serif;
@@ -25,13 +23,3 @@ body {
 figcaption {
   color: #fff
 }
-
-/* footer {
-  width: 100%;
-}
-
-.footer-row {
-  padding: 10px;
-  font-weight: 600;
-  
-} */

@@ -16,7 +16,7 @@
       // hover
       $(this).hover(
         function() {
-          $(this).css('opacity', '0');
+          $(this).css('opacity', '0.2');
           $(this).next().css('opacity', '1');
         },
         function() {
@@ -43,7 +43,7 @@
       // hover
       $(this).hover(
         function() {
-          $(this).css('opacity', '0');
+          $(this).css('opacity', '0.2');
           $(this).next().css('opacity', '1');
         },
         function() {
@@ -70,7 +70,37 @@
       // hover
       $(this).hover(
         function() {
-          $(this).css('opacity', '0');
+          $(this).css('opacity', '0.2');
+          $(this).next().css('opacity', '1');
+        },
+        function() {
+          $(this).css('opacity', '1');
+          $(this).next().css('opacity', '0');
+        }
+      );
+    });
+  };
+
+  // Propuesta con estilo flex.
+  $.fn.cardifyStylesFlex = function() {
+    console.log;
+    // Ubicando todas etiquetas img del contenedor con la clase cardify-mode
+    $(this).find('img').each(function() {
+      // Cada etiqueta img tomara como padre una etiqueta figure
+      $(this).wrap('<figure></figure>')
+        .addClass('image-styles-flex');
+
+      // A cada padre de la etiqueta img se le pondra como ultimo hijo una etiqueta figcaption
+      // A cada figcaption se le pondra como texto el atributo de su imagen correspondiente
+      $(this).parent().append($(`<figcaption>${$(this).attr('alt')}</figcaption>`))
+        .addClass('figure-styles-flex');
+      $(this).parent().parent().addClass('container-flex');
+
+      $('figcaption').addClass('figcaption-styles-flex');
+      // hover
+      $(this).hover(
+        function() {
+          $(this).css('opacity', '0.2');
           $(this).next().css('opacity', '1');
         },
         function() {

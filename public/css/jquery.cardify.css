@@ -5,6 +5,7 @@
 
 .figcaption-styles {
   font-size: 1.5em;
+  left: 15%;
   opacity: 0;
   position: absolute;
   text-align: 'center';
@@ -13,8 +14,8 @@
 
 /* CLASES CARDIFY STYLES INLINE */
 .image-styles-inline {
-  max-width: 15rem;
   height: auto;
+  max-width: 15rem;
 }
 .figure-styles-inline {
   display: inline-block;
@@ -26,6 +27,7 @@
 
 .figcaption-styles-inline {
   font-size: 1.5em;
+  left: 15%;
   opacity: 0;
   position: absolute;
   text-align: 'center';
@@ -34,9 +36,9 @@
 
 /* CLASES CARDIFY BLOCK */
 .image-styles-block {
-  max-width: 15rem;
   height: auto;
   margin-left: 7%;
+  max-width: 15rem;
 }
 
 .figure-styles-block {
@@ -47,6 +49,7 @@
 
 .figcaption-styles-block {
   font-size: 1.5em;
+  left: 5%;
   margin-left: 7%;
   margin-top: 1%;
   opacity: 0;
@@ -55,23 +58,44 @@
   top: 30%;
 }
 
-/* MODO FLEX COMING SOON */
-/* img {
+/* MODO FLEX */
+.image-styles-flex {
   border-radius: 150px;
   height: 190px;
-  width: 200px;
   margin: 15px;
   margin-right: 10px;
+  width: 200px;
 }
 
-.container {
+.container-flex {
   display: flex;
-  or inline-flex
+  /* or inline-flex */
   flex-wrap: wrap;
 }
 
-@import "compass/css3";
-.flex-container {
+.figure-styles-flex {
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 90px;
+  line-height: 150px;
+  position: relative;
+  text-align: center;
+}
+
+.figcaption-styles-flex {
+  font-size: 1.2em;
+  left: 10%;
+  margin-left: 7%;
+  margin-top: 1%;
+  opacity: 0;
+  position: absolute;
+  text-align: 'center';
+  top: 15%;
+}
+
+/* @import "compass/css3"; */
+/* .flex-container {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -82,13 +106,4 @@
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
-}
-
-.flex-item {
-  margin-top: 20px;
-  margin-left: 90px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  text-align: center;
 } */
