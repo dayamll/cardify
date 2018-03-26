@@ -14,6 +14,10 @@ con el texto del atributo `alt` de la imagen.
 
 ***
 
+* _DEMO_ :
+
+![view-index](https://user-images.githubusercontent.com/32303306/37882116-deeb50ec-3065-11e8-802f-f9409a656595.png)
+
 ## Desarrollo del plugin
 
 Como sabemos, jQuery es de las más potentes y utilizadas librerías de Javascript, reconocida como el propio framework de Javascript que se caracteriza por las funciones y eventos que implementa en este lenguaje.
@@ -161,10 +165,6 @@ La estructura HTML del **contenedor** implementando el plugin quedará de la sig
 ```
 
 ***
-
-* _DEMO_: [demo](https://margb13.github.io/cardify/public/)
-
-![view-index](https://user-images.githubusercontent.com/32303306/37882116-deeb50ec-3065-11e8-802f-f9409a656595.png)
 
 ## Flujo de trabajo en equipo
 
