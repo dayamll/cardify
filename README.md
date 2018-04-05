@@ -1,10 +1,5 @@
 # Cardify
 
-* **Track:** _Common Core_
-* **Curso:** _JS Deep Dive: Crea tu propia librería usando JavaScript_
-* **Unidad:** _Reto N° 2_
-* **Desarrolladoras:** _Dayam Llerema, Lucero Hospina y Margarita Sutta._
-
 ***
 
 **Cardify** es un plugin de jQuery, que dado un _contenedor_ busca todas las
@@ -77,9 +72,9 @@ Vamos a crear un método que debe buscar todas las imágenes que encuentre dentr
   ```
 ***
 
-## Guía de uso
+### Guía de uso
 
-### Implementacion del plugin Cardify a un proyecto
+* Implementacion del plugin Cardify a un proyecto
 
 Para el uso de nuestro plugin **_Cardify_** en tu proyecto debes incluir dos archivos importantes.
 
@@ -166,7 +161,7 @@ La estructura HTML del **contenedor** implementando el plugin quedará de la sig
 
 ***
 
-## Flujo de trabajo en equipo
+### Flujo de trabajo en equipo
 
 Para efectos de organización en el trabajo colaborativo se han creado tres ramas en este repositorio. Cada desarrolladora usará la rama asignada para ella de la siguiente manera:
 
@@ -178,7 +173,7 @@ Para efectos de organización en el trabajo colaborativo se han creado tres rama
 
 ***
 
-## Progreso propuesto
+### Progreso propuesto
 
 Se nos proponen los siguientes checklists de progreso para cada semana:
 
@@ -207,7 +202,7 @@ _**SEMANA 2.**_
 
 ***
 
-## Requisitos
+### Requisitos
 
 Todos los retos deben incluir por los menos los siguientes archivos:
 
