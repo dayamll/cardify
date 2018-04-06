@@ -9,6 +9,9 @@ con el texto del atributo `alt` de la imagen.
 
 ***
 
+### Desarrollado para [Laboratoria](http://laboratoria.la) 
+
+
 * _DEMO_ :
 
 ![view-index](https://user-images.githubusercontent.com/32303306/37882116-deeb50ec-3065-11e8-802f-f9409a656595.png)
@@ -221,3 +224,10 @@ Todos los retos deben incluir por los menos los siguientes archivos:
 
 ***
 
+Desarrolladoras
+
+* **Margarita Sutta:** [GitHub Account](https://github.com/margaritasj).
+
+* **Lucero Hospina:** [GitHub Account](https://github.com/lucerohospina).
+
+* **Dayam Llerena:** [GitHub Account](https://github.com/dayamll).
